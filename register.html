@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/ionicons.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <title>Regisztráció</title>
+    
+    </head>
+    <body>
+        <nav>
+            <div class="row">
+                <a href="index.html"><img src="resources/images/g6571.png" alt="logo" class="logo"></a>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="index.html">Kezdőlap</a></li><li><a href="index.html#features">Rólunk</a></li><li><a href="index.html#steps">Hogy működik</a></li><li><a href="index.html#form">Kapcsolat</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
+        </nav>
+        
+        <section class="register">
+            <div class="row">
+                <h2>Regisztráció</h2>
+            </div>
+            
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="username">Felhasználónév</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="username" id="username" placeholder="Felhasználónevem" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">E-mail cím</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="email@cimem.hu" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="password-again">Név</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Teljes nevem" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Születési dátum</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="date" type="text" name="year" id="year" maxlength="4" size="4" placeholder="éééé" required>
+                            <input class="date" type="text" name="month" id="month" maxlength="2" size="2" placeholder="hh" required>
+                            <input class="date" type="text" name="day" id="day" maxlength="2" size="2" placeholder="nn" required>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Nem</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="radio" name="gender" value="male" checked> Férfi &nbsp
+                            <input type="radio" name="gender" value="female"> Nő<br>
+                        </div>
+                                        
+                    </div>
+                                        
+                    
+                    
+                    <div class="row">
+                        
+                        <div class="col span-3-of-3 submit">
+                            <input type="submit" value="Elküld" class="submit-btn">
+                        </div>
+                    </div>
+                
+                </form>
+            </div>
+        
+        
+        </section>
+        
+        <footer>
+                <div class="row">
+                    <div class="col span-3-of-4 footer-left">
+                        <ul class="footer-nav">
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html">Rólunk</a></li>
+                            <li><a href="index.html#steps">Hogy működik</a></li>
+                        </ul>
+                    </div>
+                    <div class="col span-1-of-4 footer-right">
+                            <ul class="social-links">
+                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>
+                        Copyright &copy; 2018 by Home for bunnies. All rights reserved.
+                    </p>
+                </div>
+                
+            </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+    </body>
+</html>

@@ -1,0 +1,110 @@
+/* Desktop  from 1200px*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+       width:100%;
+       padding:0 2%; 
+    }
+    
+    .row{ padding:0 2%; }
+}
+
+
+
+/* Tablets to big tablet  from 768 to 1023px*/
+@media only screen and (max-width:1023px){
+    html{font-size: 18px;}
+    section{padding:60px 0;}
+    
+    .long-copy{
+        width:80%;
+        margin-left:10%;
+    }
+    
+    .steps-box{margin-top:10px;}
+    .works-steps{margin-bottom:20px}
+    
+    .contact-form{ width:80%; }
+    
+    
+}
+
+
+
+/* Tablets from 480 to 767px*/
+@media only screen and (max-width:767px){
+    body{font-size: 16px;}
+    section{padding:30px 0;}
+    
+    .row, .hero-text-box{padding:0 4%;}
+    
+    .col{
+        width:100%;
+        margin: 0 0 1% 0;
+    }
+    
+    .steps-box{ margin-left:0;}
+    
+    .main-nav{display: none;}
+    .mobile-nav-icon{display: inline-block;}
+    
+    .main-nav{
+        float:left;
+        margin-top: 25px;
+        margin-left: 25p;
+    }
+    
+    .main-nav li{
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border:0;   
+        padding:10px;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{ padding: 10px 0; }
+    .sticky .mobile-nav-icon {margin-top: 10px;}
+    
+    .long-copy{
+        width:100%;
+        margin:0;
+    }
+    
+    h1{ font-size: 180%;}
+    h2{ font-size: 150%;}
+    
+    input[type=submit]{
+    
+    }
+    
+    .steps-box{
+        padding:0 0.5rem;
+        margin-bottom: 0;
+    }
+    
+    .works-step{margin-bottom: 1.5rem;}
+    
+    .footer-left{
+        width:74.6%; 
+    }
+    .footer-right{
+        width:23.8%;
+    }
+    
+    .box{
+        text-align: center;au
+    }
+    
+    
+}
+
+
+
+/* Small phones from 0 to 480px*/
+@media only screen and (max-width:480px){
+    .btn-full{margin-bottom:0.5rem;}
+    
+}
