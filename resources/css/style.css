@@ -69,7 +69,7 @@ h1{
 }
 
 h2{
-    font-size: 180%;
+    font-size: 140%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
@@ -100,6 +100,7 @@ h3{
     width:70%;
     margin-left:15%;
     text-align: center;
+    font-size: 92%;
 }
 
 .box p{
@@ -187,8 +188,8 @@ input[type=submit]:active{
 /* -------------------- HEADER -------------------- */
 
 header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))),url(images/background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(images/background.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(images/background2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/background2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -205,7 +206,7 @@ header{
 }
 
 .logo{
-    height: 80px;
+    height: 60px;
     width:auto;    
     margin-top: 10px;
     margin-left: auto;
@@ -246,7 +247,7 @@ header{
 .div-for-li{
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: center;    
 }
 
 .main-nav li a:link,
@@ -255,7 +256,7 @@ header{
     color:#fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     border-bottom: 2px solid #e67e22 transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
@@ -399,35 +400,51 @@ header{
 
 /* -------------------- ABOUT -------------------- */
 
-.about img{
-    width: 70%;
-    height: auto;
-}
 
-.about-image{
-    text-align: center;
+
+.about-textbox{
+    height: 25rem;
+    display: block;
+	float:left;    
+    width:40%;
+    padding:1rem;
+    background-color: rgb(215, 219, 226);
 }
 
 .about-text{
+    width:auto;
     text-align: center;
-    margin-top: 3rem;
-    
+    margin-top: 2rem;
+    font-size: 92%;
+    line-height: 1.5;
+}
+
+.about-photo{
+    display: block;
+	float:left;
+    width:48%;
+    text-align: right;
+}
+
+.about img{
+    height: 25rem;
+    width: auto;
 }
 
 #about-quote{
     text-align: center;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    margin-top:2rem;
 }
 
 #about-quote-author{
+    font-size: 80%;
     text-align: center;
     font-weight: 300;
 }
 
-#about-textbox{
 
-}
 
 
 /* -------------------- CONTACT FORM -------------------- */

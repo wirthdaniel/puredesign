@@ -98,7 +98,15 @@
         text-align: center;
     }    
         
-    
+    .about-textbox{
+        float:none;
+        width:100%;
+    }
+    .about-photo{
+        float:none;
+        width:100%;
+        text-align: center;
+    }
     
 }
 
@@ -107,5 +115,5 @@
 /* Small phones from 0 to 480px*/
 @media only screen and (max-width:480px){
     .btn-full{margin-bottom:0.5rem;}
-    
+
 }
