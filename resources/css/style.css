@@ -18,7 +18,7 @@ html, body{
     font-family:'Raleway', 'Arial', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
@@ -82,6 +82,13 @@ h3{
     font-size: 110%;
     margin-bottom: 15px;
     text-align: center;
+}
+
+h4{
+    font-size: 100%;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 15px;
 }
 
 /*h2:after{
@@ -329,6 +336,28 @@ header{
     color:#16a085;
 }
 
+.design-list{
+   list-style-type: none;     
+}
+
+.sizes{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.sizes-list{
+    list-style-type: none;
+}
+
+.sizes-list li{
+    font-size: 90%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 
 /* -------------------- DESIGN -------------------- */
 
@@ -381,6 +410,7 @@ header{
     float: left;
     margin-right: 0.5rem;
 }
+
 
 
 /* -------------------- LOGO DESIGN -------------------- */
@@ -592,6 +622,14 @@ label{
 }
 
 .js--wp-2.animated{
+   opacity:1; 
+}
+
+.js--wp-3{
+   opacity:0; 
+}
+
+.js--wp-3.animated{
    opacity:1; 
 }
 

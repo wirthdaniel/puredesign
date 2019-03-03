@@ -82,6 +82,14 @@ $(document).ready(function(){
         offset:'50%'
     })
     
+    $('.js--wp-3').waypoint(function(direction){
+        $('.js--wp-3').addClass('animated fadeIn');
+    },{
+        offset:'50%'
+    })
+    
+    
+    
     
     
     /* Mobile navigation */
