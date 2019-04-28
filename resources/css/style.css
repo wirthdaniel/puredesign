@@ -254,7 +254,8 @@ header{
 .div-for-li{
     margin-left: auto;
     margin-right: auto;
-    text-align: center;    
+    text-align: center;
+    padding-bottom: 8px;
 }
 
 .main-nav li a:link,
@@ -302,7 +303,7 @@ header{
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
-    padding: 16px 0;
+    padding: 8px 0;
     color:black;
 }
 
